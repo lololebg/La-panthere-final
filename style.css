@@ -7,6 +7,18 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
+
+.h22 {
+    width: 62%;
+    margin: auto;
+    padding: 15px;
+}
+
+.span {
+    font-size: 18px;
+    font-weight: bold;
+}
+
 a,
 button {
     transition: all .3s ease-in-out;
