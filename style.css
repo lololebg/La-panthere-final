@@ -24,6 +24,11 @@ body {
     top: 20px;
 }
 
+
+.insta {
+    display: flex;
+   
+}
 .h222{
     width: 89%;
     font-size: 31px;
@@ -763,6 +768,7 @@ h4 {
 
 .portfolio-thumb {
     margin-bottom: 24px;
+   
 }
 
 .portfolio-row {
@@ -800,7 +806,7 @@ h4 {
 }
 
 .tc-white {
-    color: #090808b5 !important;
+    color: black !important;
     position: relative;
   
     text-align: center;
@@ -878,6 +884,12 @@ right: 4%;
     .nav-center.navbar .nav {
         max-width: 100%
     }
+
+    .portfolio-thumb {
+        margin-bottom: 24px;
+        position: relative;
+        left: 20%;
+    }
 }
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
@@ -918,6 +930,11 @@ right: 4%;
         padding: 0 20px;
         padding-left: constant(safe-area-inset-left);
         padding-right: constant(safe-area-inset-right);
+    }
+    .portfolio-thumb {
+        margin-bottom: 24px;
+        position: relative;
+        left: 20%;
     }
 }
 
@@ -1058,6 +1075,16 @@ right: 4%;
         width: 180px;
         height: 320px;
     }
+    .portfolio-thumb {
+        margin-bottom: 24px;
+        position: relative;
+        left: 20%;
+    }
+
+    .h2222 {
+        position: relative;
+        left: 0%;
+    }
 }
 
 @media (max-width: 400px) {
@@ -1065,10 +1092,20 @@ right: 4%;
         padding-left: 0;
         padding-right: 0;
     }
+    .portfolio-thumb {
+        margin-bottom: 24px;
+        position: relative;
+        left: 20%;
+    }
 }
 
 @media (max-width: 767px) {
     .bloc-mob-center-text {
         text-align: center;
+    }
+
+    .insta {
+        display: flex;
+        margin-left: 22%;
     }
 }
