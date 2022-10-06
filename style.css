@@ -14,8 +14,15 @@ body {
     margin-left: 35px;
 }
 
+.text-center.hero-bloc-text.tc-white{
+    font-size: 31px;
+}
 
-
+.h2222{
+    position: relative;
+    right: 193px;
+    top: 20px;
+}
 
 .h222{
     width: 89%;
@@ -793,7 +800,11 @@ h4 {
 }
 
 .tc-white {
-    color: white !important;
+    color: #090808b5 !important;
+    position: relative;
+  
+    text-align: center;
+    font-size: 19px;
 }
 
 .btn-atomic-tangerine {
