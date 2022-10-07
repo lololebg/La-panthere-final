@@ -18,6 +18,13 @@ body {
     font-size: 31px;
 }
 
+
+
+.web, .web2 {
+    color: white !important;
+}
+
+
 .h2222{
     position: relative;
     right: 193px;
@@ -47,6 +54,14 @@ body {
     color: #595959;
 }
 
+.web4 {
+    margin: 0px;
+    width: 42%;
+    position: relative;
+bottom: 37px;
+left: 36%;
+
+}
 a,
 button {
     transition: all .3s ease-in-out;
@@ -278,6 +293,7 @@ a:hover {
 
 .l-bloc .navbar-toggle .icon-bar {
     color: rgba(0, 0, 0, .6);
+    margin-top: 6px;
 }
 
 .d-bloc .panel .btn-wire,
@@ -349,8 +365,7 @@ a:hover {
 
 .nav > li {
     float: left;
-    margin-top: 4px;
-    font-size: 16px;
+
 }
 
 .navbar-nav .open .dropdown-menu > li > a {
@@ -365,6 +380,10 @@ a:hover {
 .navbar-toggle {
     margin: 10px 10px 0 0;
     border: 0px;
+    position: relative;
+    left: 20%;
+    bottom: 25%;
+
 }
 
 .navbar-toggle:hover {
@@ -531,10 +550,6 @@ button {
     border-radius: 0 0 29px 29px;
 }
 
-.form-control {
-    border-color: rgba(0, 0, 0, .1);
-    box-shadow: none;
-}
 
 .scrollToTop {
     width: 40px;
@@ -708,7 +723,7 @@ p {
 
 .tight-width-whitespace {
     max-width: 600px;
-    margin: auto auto auto auto;
+    margin-left: 29%;
 }
 
 .h1 {
@@ -728,6 +743,8 @@ p {
 .social {
     max-width: 400px;
     margin: auto auto auto auto;
+    padding-right: 34px;
+    color: #333333 !important;
 }
 
 h2 {
@@ -816,6 +833,9 @@ h4 {
 .btn-atomic-tangerine {
     background: #F3976C;
     color: black!important;
+    margin-left: 6px;
+    border-radius: 19px;
+   
 }
 
 .btn-atomic-tangerine:hover {
@@ -875,6 +895,20 @@ right: 4%;
         padding-left: 0;
         padding-right: 0;
     }
+
+    .web3 {
+         
+        width: 92%;
+        background: #F3976C;
+        color: black !important;
+        margin-left: 6px;
+        border-radius: 19px;
+        padding: 16px;
+        margin-top: 14px;
+        font-size: 17px;
+        font-weight: bold;
+}
+
 }
 
 @media (max-width: 992px) and (min-width: 768px) {
@@ -898,13 +932,89 @@ right: 4%;
     }
 }
 
+
+@media all and (min-width:993px) and (max-width:2900px){
+    .web2 {
+        position: relative;
+    left: 34%;
+    font-size: 14px;
+    }
+    
+    .web{
+        position: relative;
+        left: 40%;
+        font-size: 32px;
+        bottom: 7%;
+    }
+    
+    .web2, .web {
+        color: white !important;
+    }
+
+    .form-control {
+        border-color: rgba(0, 0, 0, 0.41);
+        box-shadow: none;
+        display: flex;
+        width: 100%;
+        padding: 7px;
+        margin-top: 9px;
+        border-radius: 7px;
+    }
+
+    .nav > li {
+        float: left;
+    margin-top: -25px;
+    font-size: 21px;
+    position: relative;
+    right: 120%;
+    margin-right: 51px;
+    text-decoration: none;
+    list-style: none;
+    }
+
+    .container.bloc-lg{
+        margin-left: 12%;
+    }
+
+    .web3 {
+         
+            width: 100%;
+            background: #F3976C;
+            color: black !important;
+            margin-left: 6px;
+            border-radius: 19px;
+            padding: 16px;
+            margin-top: 14px;
+            font-size: 17px;
+            font-weight: bold;
+    }
+
+}
+    
+
 @media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
     .b-parallax {
         background-attachment: scroll;
     }
+    .web2 {
+        position: relative;
+    left: 34%;
+    font-size: 14px;
+    }
+    
+    .web{
+        position: relative;
+        left: 40%;
+        font-size: 32px;
+        bottom: 7%;
+    }
+    
+    .web2, .web {
+        color: white !important;
+    }
 }
 
-@media (max-width: 991px) {
+@media (max-width: 992px) {
     .container {
         width: 100%;
     }
@@ -935,6 +1045,32 @@ right: 4%;
         margin-bottom: 24px;
         position: relative;
         left: 20%;
+    }
+
+    .form-control {
+        width: 93%;
+        
+            border-color: rgba(0, 0, 0, 0.41);
+            box-shadow: none;
+            display: flex;
+            
+            padding: 7px;
+            margin-top: 9px;
+            border-radius: 7px;
+     }
+
+     .web2 {
+        position: relative;
+    left: -68%;
+    font-size: 18px;
+    width: 86%;
+    margin-left: 86%;
+    }
+    
+    .web{
+        position: relative;
+        left: 31%;
+        bottom: 0%;
     }
 }
 
@@ -1085,6 +1221,68 @@ right: 4%;
         position: relative;
         left: 0%;
     }
+    
+    .web3{
+        width: 96%;
+        background: #F3976C;
+        color: black !important;
+        margin-left: 6px;
+        border-radius: 19px;
+        padding: 16px;
+        margin-top: 14px;
+        font-size: 17px;
+        font-weight: bold;
+    }
+
+    .web2 {
+        position: relative;
+    left: -78%;
+    font-size: 18px;
+    width: 86%;
+    margin-left: 86%;
+    }
+    
+    .web{
+        position: relative;
+        left: 11%;
+        bottom: 0%;
+    }
+
+    .form-control {
+        width: 95%;
+        
+            border-color: rgba(0, 0, 0, 0.41);
+            box-shadow: none;
+            display: flex;
+            
+            padding: 7px;
+            margin-top: 9px;
+            border-radius: 7px;
+        
+    }
+
+    .white {
+        color: white;
+        margin-left: 10%
+    }
+
+.sr-only{
+    position: absolute;
+width: 1px;
+height: 1px;
+padding: 0;
+margin: -1px;
+overflow: hidden;
+clip: rect(0, 0, 0, 0);
+border: 0;
+}
+
+.navbar-toggle .icon-bar {
+    display: block;
+    width: 22px;
+    height: 2px;
+    border-radius: 1px;
+  }
 }
 
 @media (max-width: 400px) {
