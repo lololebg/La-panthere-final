@@ -7,6 +7,11 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
+.img-fluid {
+max-width: 100% !important;
+height: auto !important;
+}
+
 .carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
     display: block;
     max-width: 80%;
@@ -18,7 +23,33 @@ body {
     font-size: 31px;
 }
 
+.insta2 {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 3rem;
+    margin-left: 87%;
+}
 
+.insta3 {
+    margin-left: 61%;
+    font-weight: bolder;
+    font-size: 13px;
+    margin-top: 21px;
+}
+
+.b4 {
+    position: relative;
+    right: 478%;
+    bottom: 12px;
+    text-decoration: none;
+}
+
+.b5 {
+    margin-right: 10px;
+    position: relative;
+    right: 24%;
+    top: 17px;
+}
 
 .web, .web2 {
     color: white !important;
@@ -31,6 +62,19 @@ body {
     top: 20px;
 }
 
+.contact {
+    
+        background: #F3976C;
+        color: black !important;
+        margin-left: 47%;
+        border-radius: 44px;
+        padding: 17px;
+        width: 14%;
+        display: block;
+        box-shadow: 1px 1px 4px;
+        font-weight: bold;
+        font-size: 19px;
+    }
 
 .insta {
     display: flex;
@@ -46,6 +90,9 @@ body {
     width: 62%;
     margin: auto;
     padding: 15px;
+    position: relative;
+    left: 2%;
+    bottom: 22px;
 }
 
 .span {
@@ -434,6 +481,7 @@ a:hover {
         float: none;
         display: inline-block;
     }
+   
     .nav-center .site-navigation {
         position: relative;
         width: 100%;
@@ -444,6 +492,12 @@ a:hover {
     .nav-center.mini-nav .navbar-toggle {
         float: none;
         margin: 10px auto 0;
+    }
+
+    .insta2 {
+        display: flex;
+        flex-wrap: nowrap;
+        gap: 3rem;
     }
 }
 
@@ -483,6 +537,7 @@ nav .caret {
     margin-top: 10px;
     margin-bottom: 20px;
     font-weight: bold;
+    position: relative;
 }
 
 .mg-lg {
@@ -742,8 +797,9 @@ p {
 
 .social {
     max-width: 400px;
-    margin: auto auto auto auto;
-    padding-right: 34px;
+  position: relative;
+  left: 28%;
+
     color: #333333 !important;
 }
 
@@ -752,6 +808,11 @@ h2 {
     line-height: 1.4em;
 }
 
+
+
+.text {
+    text-align: center;
+}
 h3 {
     font-size: 15px;
     text-transform: uppercase;
@@ -824,10 +885,9 @@ h4 {
 
 .tc-white {
     color: white !important;
-    position: relative;
-  
-    text-align: center;
+   text-align: center;
     font-size: 19px;
+  
 }
 
 .btn-atomic-tangerine {
@@ -883,10 +943,14 @@ right: 4%;
     background-image: url("img/image-de-presentation.webp");
 }
 
+
+
 @media (max-width: 1080px) {
     .bloc {
         padding-left: 20px;
         padding-right: 20px;
+        position: relative;
+        left: -3%;
     }
     .bloc.full-width-bloc,
     .bloc-tile-2.full-width-bloc .container,
@@ -960,6 +1024,8 @@ right: 4%;
     font-size: 14px;
     }
     
+   
+
     .web{
         position: relative;
         left: 40%;
@@ -982,14 +1048,12 @@ right: 4%;
     }
 
     .nav > li {
-        float: left;
-    margin-top: -25px;
-    font-size: 21px;
-    position: relative;
-    right: 120%;
+   
     margin-right: 51px;
     text-decoration: none;
     list-style: none;
+    position: relative;
+    left: 63%;
     }
 
     .container.bloc-lg{
@@ -1039,6 +1103,7 @@ right: 4%;
 @media (max-width: 992px) {
     .container {
         width: 100%;
+        margin-left: 3%;
     }
     .b-parallax {
         background-attachment: scroll;
@@ -1057,16 +1122,44 @@ right: 4%;
         display: block;
         width: 100%;
     }
+
+    .b4 {
+        margin-right: 50px;
+        list-style: none;
+        position: relative;
+        left: -37%;
+    }
+
+    .insta2 {
+        position: relative;
+        right: 62%;
+    }
+    .insta3 {
+        position: relative;
+        right: 29%;
+    }
+    .span {
+        width: 82%;
+        display: block;
+        margin-left: 11%;
+    }
     .bloc-fill-screen .fill-bloc-top-edge,
     .bloc-fill-screen .fill-bloc-bottom-edge {
         padding: 0 20px;
         padding-left: constant(safe-area-inset-left);
         padding-right: constant(safe-area-inset-right);
     }
+
+    .h22 {
+        position: relative;
+        left: 2%;
+        bottom: 21px;
+    }
     .portfolio-thumb {
         margin-bottom: 24px;
         position: relative;
         left: -33%;
+        width: 100%;
     }
 
     .form-control {
@@ -1081,12 +1174,24 @@ right: 4%;
             border-radius: 7px;
      }
 
+     .contact {
+        margin-left: 39%;
+        width: 30%;
+      }
+
+     .web4 {
+        position: relative;
+        left: 33%;
+        bottom: 51px;
+     }
+
+
      .web2 {
         position: relative;
-    left: -68%;
-    font-size: 18px;
-    width: 86%;
-    margin-left: 86%;
+        left: -68%;
+        font-size: 18px;
+        width: 86%;
+        margin-left: 86%;
     }
     
     .web{
@@ -1113,8 +1218,21 @@ right: 4%;
 
       .text {
         position: relative;
-        right: 21%;
-        width: 86%;
+        right: 31%;
+        text-align: center;
+       
+      }
+
+      
+    .social {
+       
+        position: relative;
+        left: 23%;
+       }
+
+       .black-background {
+        position: relative;
+        right: 15%;
       }
 
 }
@@ -1257,10 +1375,23 @@ right: 4%;
         height: 320px;
     }
     .portfolio-thumb {
-        margin-bottom: 24px;
-        position: relative;
-        left: 20%;
+       margin: auto;
+       padding-left: 1px;
+       margin-left: 31%;
     }
+
+    .social {
+       
+      position: relative;
+      left: 11%;
+     }
+    
+
+    .black-background {
+        position: relative;
+        right: 16.5%;
+      }
+
 
     .h2222 {
         position: relative;
@@ -1272,8 +1403,8 @@ right: 4%;
         width: 68%;
         margin-right: 19%;
         position: relative;
-        left: 22%;
-        margin-top: 17px
+        left: 21%;
+        top: -4px;
     }
 
     .web3{
@@ -1365,7 +1496,7 @@ border: 0;
     font-size: 15px;
     display: block;
     position: relative;
-    left: 19%;
+    left: 8%;
   }
 
  .text {
@@ -1374,7 +1505,7 @@ margin-bottom: 20px;
 font-weight: bold;
 text-align: center;
 position: relative;
-right: 16%;
+right: 17%;
  }
 
 
@@ -1388,10 +1519,21 @@ right: 16%;
         padding-right: 0;
     }
     .portfolio-thumb {
-        margin-bottom: 24px;
-        position: relative;
-        left: -9%;
+      
+        margin: auto;
+        padding-left: 1px;
+        margin-right: -4px;
     }
+    .insta2 {
+        display: flex;
+        flex-wrap: nowrap;
+        gap: 3rem;
+    }
+    insta3 {
+        position: relative;
+        right: 48%;
+        width: 100%;
+      }
 }
 
 @media (max-width: 767px) {
@@ -1399,8 +1541,18 @@ right: 16%;
         text-align: center;
     }
 
+
     .insta {
         display: flex;
         margin-left: 22%;
+    }
+
+    .insta3 {
+        width: 100%;
+        margin-left: 44%;
+    }
+
+    .portfolio-thumb {
+        width: 70%;
     }
 }
