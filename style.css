@@ -392,7 +392,7 @@ a:hover {
     max-height: 200px;
     margin: 0 5px 0 0;
     display: inline;
-    width: 100%;
+    width: 120%;
 }
 
 .navbar-brand img[src$=svg] {
@@ -1130,9 +1130,14 @@ right: 4%;
         left: -37%;
     }
 
+    .b5 {
+        position: relative;
+        right: 46%;
+    }
+
     .insta2 {
         position: relative;
-        right: 62%;
+        right: 75%;
     }
     .insta3 {
         position: relative;
@@ -1528,6 +1533,8 @@ right: 17%;
         display: flex;
         flex-wrap: nowrap;
         gap: 3rem;
+        position: relative;
+        right: 80%;
     }
     insta3 {
         position: relative;
@@ -1549,9 +1556,13 @@ right: 17%;
 
     .insta3 {
         width: 100%;
-        margin-left: 44%;
+        margin-left: 38%;
     }
 
+    .b5 {
+        position: relative;
+        left: 10%;
+    }
     .portfolio-thumb {
         width: 70%;
     }
