@@ -19,6 +19,14 @@ height: auto !important;
     margin-left: 35px;
 }
 
+.vie {
+    margin-left: 9%;
+    text-align: center;
+    color: white !important;
+    font-weight: bold;
+    position: relative;
+}
+
 .text-center.hero-bloc-text.tc-white{
     font-size: 31px;
 }
@@ -1237,7 +1245,7 @@ right: 4%;
         POSITION: RELATIVE;
         top: 38px;
     }
-    
+
     .social {
        
         position: relative;
