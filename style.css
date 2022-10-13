@@ -1137,11 +1137,11 @@ right: 4%;
 
     .insta2 {
         position: relative;
-        right: 75%;
+        right: 78%;
     }
     .insta3 {
         position: relative;
-        right: 29%;
+        right: 36%;
     }
     .span {
         width: 82%;
@@ -1193,7 +1193,7 @@ right: 4%;
 
      .web2 {
         position: relative;
-        left: -68%;
+        left: -72%;
         font-size: 18px;
         width: 86%;
         margin-left: 86%;
@@ -1201,24 +1201,24 @@ right: 4%;
     
     .web{
         position: relative;
-        left: 31%;
+        left: 27%;
         bottom: 0%;
     }
 
     .center-block {
         position: relative;
-        right: 24%;
+        right: 27%;
       }
 
       #bloc-1-hero h1 {
         font-size: 32px;
         position: relative;
-        right: 23%;
+        right: 26%;
       }
 
       .cta-hero {
         position: relative;
-        right: 23%;
+        right: 27%;
       }
 
       .text {
@@ -1228,7 +1228,16 @@ right: 4%;
        
       }
 
-      
+      .p5 {
+        text-align: center;
+        margin: 0;
+        font-weight: bold;
+        text-align: center;
+        margin-right: 6%;
+        POSITION: RELATIVE;
+        top: 38px;
+    }
+    
     .social {
        
         position: relative;
@@ -1237,7 +1246,7 @@ right: 4%;
 
        .black-background {
         position: relative;
-        right: 15%;
+        right: 20%;
       }
 
 }
@@ -1394,7 +1403,7 @@ right: 4%;
 
     .black-background {
         position: relative;
-        right: 16.5%;
+        right: 20.5%;
       }
 
 
@@ -1429,12 +1438,12 @@ right: 4%;
     left: -78%;
     font-size: 18px;
     width: 86%;
-    margin-left: 86%;
+    margin-left: 83%;
     }
     
     .web{
         position: relative;
-        left: 11%;
+        left: 7%;
         bottom: 0%;
     }
 
@@ -1476,19 +1485,19 @@ border: 0;
 
   .center-block {
     position: relative;
-    right: 24%;
+    right: 29%;
   }
 
   #bloc-1-hero h1 {
     font-size: 32px;
     position: rem;
     position: relative;
-    right: 23%;
+    right: 29%;
   }
 
   .cta-hero {
     position: relative;
-    right: 23%;
+    right: 29%;
   }
 
   .h22 {
@@ -1534,12 +1543,19 @@ right: 17%;
         flex-wrap: nowrap;
         gap: 3rem;
         position: relative;
-        right: 80%;
+        right: 85%;
     }
     insta3 {
         position: relative;
         right: 48%;
         width: 100%;
+      }
+
+      .p5 {
+    text-align: center;
+    font-weight: bold;
+    position: relative;
+    top: 10px;
       }
 }
 
@@ -1556,7 +1572,7 @@ right: 17%;
 
     .insta3 {
         width: 100%;
-        margin-left: 38%;
+        margin-left: 41%;
     }
 
     .b5 {
